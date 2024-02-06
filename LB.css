@@ -1,0 +1,89 @@
+
+
+body {
+    background-color: grey;
+}
+
+svg {
+    position: relative;
+}
+
+span:first-child {
+    color: red;
+}
+
+#bulb {
+    height: 20px;
+    width: 13px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border: solid 1px black;
+    margin-left: 8px;
+    background-color: black;
+    margin-top: -5px;
+}
+
+#on {
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#on:active {
+    background-color: red;
+    outline: none;
+}
+
+#off {
+    background-color: maroon;
+    border: none;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+}
+
+#off:active {
+    background-color: red;
+}
+
+#bbtp {
+    height: 30px;
+    width: 30px;
+    border-radius: 35px;
+    border: solid 1px black;
+    position: absolute;
+    margin-left: 1px;
+    border: none;
+    background-color: #efefef;
+}
+
+div {
+    margin-left: 5px;
+}
+
+#fbb {
+    margin-left: 150px;
+    animation-name: art;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 0%;
+}
+
+@keyframes art {
+    0% { -webkit-transform: rotate(5deg); }
+    50% { -webkit-transform: rotate(-3deg); }
+    100% { -webkit-transform: rotate(5deg); }
+}
+
+#bod {
+    height: 450px;
+    padding: 30px;
+    color: grey;
+    font-size: 15pt;
+    border-radius: 25px;
+    box-shadow: 0px 10px 45px black;
+}
+button{
+    cursor: pointer;
+}
